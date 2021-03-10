@@ -1,0 +1,22 @@
+.main-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-auto-rows: repeat(auto-fill, minmax(130px, 300px));
+  font-family: "Work Sans", sans-serif;
+  .main-img-block {
+    img {
+      width: 100%;
+      height: 90%;
+    }
+    .img-title {
+      display: flex;
+      align-items: center;
+      height: 10%;
+      text-transform: uppercase;
+      font-size: 1em;
+      font-weight: 500;
+      padding-left: 5%;
+      margin-bottom: 5%;
+    }
+  }
+}
